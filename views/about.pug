@@ -1,0 +1,17 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/styleabout.css
+
+block content 
+    h1 About Us 
+    h2 OUR MISSON
+        p The mission of the Mick Dance Ensemble is to enrich the residents of the Twin Cities and surrounding area by providing an environment of dance training and performance with emphasis on artistic, technical, and creative content all presented in a fun and energetic setting.  The school of Youth Dance Ensemble will offer preprofessional training for the serious student as well as classes for the avocational and young dancer. The Repertoire Ensemble, a company of young artists, will inspire the general public to better understand and appreciate dance in its many forms, to preserve and promote the art of ballet and related cultural traditions.
+        p    |We are non-profit organization run by dedicated individuals who see dance as an art form and wish to carry on that artistic vision and tradition. Our nationally recognized instructors and guest choreographers work hard to create an environment of growth, hard work, and encouragement for your child. Dixie Rairamo has been teaching young dancers for 35 years and prides the school on it’s technical training as well as it’s supportive environment and incomparable studio family.
+            |Here at YDE we offer competition quality dance in a non-competitive environment. It truly is magical to see the joy that our students display on stage. Memories created here last for a lifetime!
+            |form(action="/about",method="post",class="about")  

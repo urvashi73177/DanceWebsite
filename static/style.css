@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar{
+
+    background-color: rgb(255, 0, 0);
+    padding:12px 13px ;
+    font-family: 'Dela Gothic One', cursive;
+
+}
+#navbar li{
+list-style: none;
+
+}
+
+#navbar li a{
+
+    text-decoration: none;
+    padding: 18px 35px;
+    color: blanchedalmond;
+    font-size: 1rem;
+}
+#navbar li a:hover{
+
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+    
+}
+
+#navbar ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/dance.jpg");
+    opacity: 0.95;
+   font-family:  'Dela Gothic One', cursive;
+   font-size: 50px;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+ height: 425px;
+background-color: rosybrown;
+padding-bottom: 100px;
+font-feature-settings: "abvm";
+font-variant: small-caps;
+font-variant-ligatures: historical-ligatures;
+
+
+}
+
+#sponsorSection{
+    height: 200px;
+    background-color: rgb(235, 162, 162);
+    font-size: 17px;
+    text-align: center;
+    font-family:  'Dela Gothic One', cursive;
+    padding: 5px 6px;
+
+}
+
+#footer{
+height: 42px;
+background-color: rgb(0, 0, 0);
+}
+
+#introSection div.small{
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(243, 0, 0);
+    font-variant: normal;
+    font-feature-settings: "vrt2";
+    /* transition: all;
+    transition-property: all;
+    transform-style: preserve-3d;
+    transition-duration: 0s; */
+
+
+}
+
+#mission{
+    height: 319px;
+    background-color: rgb(255, 255, 255);
+    font-size:17px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-family:  'Dela Gothic One', cursive;
+    padding: 5px 6px;
+
+}
+
+.card{
+
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 15px;
+    width: 30%;
+    height: 212px;
+    margin: 29px 12px;
+    display: inline-block;
+    flex-direction: row;
+    background-color: rgb(224, 224, 199);
+    
+}
+
+.card h3{
+
+    text-align: center;
+    margin-top: 12px;
+    text-decoration: underline;
+}
+
+#logo img{
+
+    height:42px;
+    width: 50px;
+    margin-right: 15px;
+
+}
+
+#logo{
+    display: flex;
+    color: blanchedalmond;
+    margin: 0 14px;
+    font-size: 12px;
+    
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 70px;
+    width: 35px;
+   padding: 0 14px;
+   margin: 12px 9px;
+}
+
+
+
+.card-img img{
+    height: inherit;
+    padding: 0 14px;
+    align-items: inherit;
+    margin: 15px -37px;
+}
+
+.card-content{
+    padding: 0 24px;
+
+}
+
+.card-content p{
+    font-size: 17px;
+    font-family:'Dancing Script', cursive;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.sponsor-img{
+
+    display: flex;
+    height: 130px;
+    padding: 13px 42px;
+    margin-top: 12px;
+}
+
+.sponsor2-img{
+    height: 130px;
+    display: flex;
+    padding: 13px 300px;
+    margin-top: -126px;
+}
+
+.sponsor3-img{
+    height: 262px;
+    display: flex;
+    padding:13px 510px;
+  margin-top: -198px;
+}
+
+.sponsor4-img{
+
+    height: 131px;
+    display: flex;
+    padding: 23px 150px;
+    margin-left: 776px;
+    margin-top: -197px;
+}
+
+#footer{
+    color: blanchedalmond;
+    text-align: center;
+    padding: 15px 4px;
+}
+
+.sponsor-img:hover{
+
+    transform: scale(1.2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

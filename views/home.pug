@@ -1,0 +1,46 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+block style
+    style
+      include ../static/style.css
+block content
+    section#introSection 
+        div Welcome To Mick Dance Accademy
+        div.small Eat, Sleep, Dance, Repeat
+
+    section#mission
+      h2 Our Mission
+
+      div.card 
+        h3 Dance Perfection
+        div.card-box 
+            div.card-img 
+              img(src="/static/img/wow33.png")
+            div.card-content 
+              p Proper technique, individual attention, professional dance instructors, creative artistry and amazing steps
+      div.card 
+        h3 Dance The Way You Like
+        div.card-box 
+            div.card-img 
+              img(src="/static/img/wow23.png")
+            div.card-content 
+              p Nurturing of individual talents, promoting of positive relationships, focus on building self confidence.
+      div.card 
+        h3 Expert Teaching
+        div.card-box 
+            div.card-img 
+              img(src="/static/img/wow22.png")
+            div.card-content 
+              p Professional sprung dance floors and sound system. dance teachers who support basic needs likely support dancers.
+
+    section#sponsorSection 
+      h2 Our Sponsors
+      div.sponsor-img 
+        img(src="/static/img/apple.png")
+      div.sponsor2-img 
+        img(src="/static/img/twitter.png")   
+      div.sponsor3-img 
+        img(src="/static/img/microsoft.png")   
+      div.sponsor4-img 
+        img(src="/static/img/skype.png")  
